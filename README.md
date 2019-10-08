@@ -22,6 +22,8 @@ based on [blog post](https://medium.com/sean3z/building-a-restful-crud-api-with-
     diesel setup
     diesel migration run
     cargo run
+then
+
     curl -d '{"id":"1", "name":"a", "identity":"b", "hometown":"c", "age":1}' -H "Content-Type: application/json" -X POST http://localhost:8000/hero
 
 if you want to reprint schema
@@ -36,6 +38,8 @@ if you want to reprint schema
     make
     # move the executable to somewhere in your PATH, ex:
     sudo cp wrk /usr/local/bin
+then
+
     cargo run &
 
 then
