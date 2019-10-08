@@ -18,7 +18,7 @@ based on [blog post](https://medium.com/sean3z/building-a-restful-crud-api-with-
     sudo service mysql restart
 ### Run
     cargo install diesel_cli --no-default-features --features mysql
-    export DATABASE_URL=mysql://root:root@localhost/heroes
+    export DATABASE_URL=mysql://root:new_password@localhost/heroes
     diesel setup
     diesel migration run
     cargo run
